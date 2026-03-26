@@ -1,5 +1,3 @@
-declare i64 @g(i64)
-
 define i64 @f(i64 %y) {
 entry:
   %r = call i64 @g(i64 %y)
